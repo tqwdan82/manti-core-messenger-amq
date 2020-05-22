@@ -1,0 +1,24 @@
+{
+    "columns":[
+        {
+            "columnName":"CONFIG_ID",
+            "columnDataType":"UUID",
+            "isPrimaryKey":true
+        },
+        {
+            "columnName":"MSG_TYPE",
+            "columnDataType":"string",
+            "isPrimaryKey":true
+        },
+        {
+            "columnName":"CONFIG_KEY",
+            "columnDataType":"string"
+        },
+        {
+            "columnName":"CONFIG_VALUE",
+            "columnDataType":"string"
+        }
+    ],
+    "timestamps":true,
+    "paranoid": false
+}

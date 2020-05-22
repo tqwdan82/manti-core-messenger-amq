@@ -1,0 +1,19 @@
+{
+    "columns":[
+        {
+            "columnName":"MSG_ID",
+            "columnDataType":"UUID",
+            "isPrimaryKey":true
+        },
+        {
+            "columnName":"PAYLOAD",
+            "columnDataType":"string"
+        },
+        {
+            "columnName":"DTE_MSG_SENT",
+            "columnDataType":"DATE"
+        }
+    ],
+    "timestamps":true,
+    "paranoid": false
+}
